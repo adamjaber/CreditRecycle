@@ -1,0 +1,14 @@
+.wrapper {
+    min-height: 80vh;
+    background-color: #E5E5E5;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: start;
+}
+.flexwrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}

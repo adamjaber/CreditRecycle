@@ -1,0 +1,22 @@
+.wrapper {
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+.flexWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 105px;
+}
+
+.flexWrapperPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+  }

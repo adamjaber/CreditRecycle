@@ -1,0 +1,27 @@
+
+.wrapper {
+  
+  padding-top: 60px;
+  box-sizing: border-box;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.th {
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.td {
+  text-align: left;
+  padding: 12px;
+}

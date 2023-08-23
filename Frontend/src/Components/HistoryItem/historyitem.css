@@ -1,0 +1,18 @@
+.history-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.history-item h6{
+    color: #B6C9C3;
+}
+.history-title-date{
+    margin-left: 16px ;
+    text-align: initial;
+}
+
+.points{
+    margin-right: 16px ;
+    text-align: end;
+}

@@ -1,0 +1,59 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #0e0b0b;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  
+.dash-tool-box {
+    position:absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.dash-tool {
+    width: 36px;
+    height: 36px;
+    margin-left: 4px;
+    outline: 2.10345px solid #FFFFFF;
+    font-size: 17px;
+    color: white;
+    box-shadow: 0px 1px 4px 1px rgba(255, 102, 71, 0.25);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wallet-icon{
+  transform: translateY(10%);
+
+}
+.user-wallets{
+  border: 1px solid #189A46;
+  background-color: #189A46;
+  color: white;
+  width: fit-content;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 5px;
+}

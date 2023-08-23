@@ -1,0 +1,71 @@
+.dash-card {
+    position: relative;
+    border-radius: 25px;
+    width: 293px;
+    height: auto;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 1px 2px 2px rgba(153, 165, 236, 0.05);
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.dash-img {
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto 13px;
+    object-fit: cover;
+}
+
+.dash-title {
+    display: block;
+    font-weight: bold;
+    font-size: 15.7759px;
+    margin-bottom: 6px;
+}
+
+.dash-content {
+    padding: 0;
+    margin: 0 13px;
+}
+
+.dash-content span {
+    display: block;
+    font-weight: 500;
+}
+
+.dash-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dash-location {
+    font-weight: bold;
+    font-size: 14px;
+    color: #35364657;
+    max-width: 70%;
+}
+
+.dash-price {
+    color: #34A59F;
+}
+
+.dash-tool-box {
+    position:absolute;
+    right: 15px;
+    top: 15px;
+    
+}
+
+.dash-tool {
+    width: 36px;
+    height: 36px;
+    margin-left: 4px;
+    outline: 2.10345px solid #FFFFFF;
+    font-size: 17px;
+    color: white;
+    box-shadow: 0px 1px 4px 1px rgba(255, 102, 71, 0.25);
+}

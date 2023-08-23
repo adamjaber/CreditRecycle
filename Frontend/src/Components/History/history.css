@@ -1,0 +1,39 @@
+.history{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 14px;
+}
+.history img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.back-arrow{
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    background-image:url('../../Images/back.svg') ;
+    width:12.5px;
+    height: 25px;
+    background-repeat: no-repeat;
+
+
+}
+
+.activity-option{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.hr-line{
+    display: block;
+    border: 0.3px solid #e6e9e8;
+    width: 90%;
+    height: 0px;
+    margin-left: 5%;
+    margin-top: 27px;
+}

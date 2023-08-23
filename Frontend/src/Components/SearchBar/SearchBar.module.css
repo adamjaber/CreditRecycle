@@ -1,0 +1,10 @@
+.search {
+    width: 326px;
+    height: 52px;
+    background-color: white;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.02);
+    font-size: 15px;
+    text-indent: 15px;
+    border-radius: 26px;
+    border: none;
+}

@@ -1,0 +1,70 @@
+.setiings{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 14px;
+}
+
+.back-arrow{
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    background-image:url('../../Images/back.svg') ;
+    width:12.5px;
+    height: 25px;
+    background-repeat: no-repeat;
+
+
+}
+.hr-line{
+    display: block;
+    border: 0.3px solid #e6e9e8;
+    width: 90%;
+    height: 0px;
+    margin-left: 5%;
+}
+.setiings > .hr-line{
+ margin-top:90px ;
+}
+
+.settings-options span, .settings-options a{
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    display: block;
+    text-align: initial;    
+    text-indent: 25px ;
+    margin-left: 18px;
+    margin-top: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+.settings-options .hr-line{
+    margin-top: 14px;
+}
+#account-icon{
+    background-image:url('../../Images/person-icon.svg') ;
+
+}
+#notification-icon{
+    background-image:url('../../Images/notification-icon.svg') ;
+
+}
+#appearance-icon{
+    background-image:url('../../Images/appearance-icon.svg') ;
+
+}
+#privacy-icon{
+    background-image:url('../../Images/privacy-icon.svg') ;
+
+}
+#support-icon{
+    background-image:url('../../Images/help-icon.svg') ;
+
+}
+#log-out-icon{
+    background-image:url('../../Images/logout-icon.svg') ;
+
+}

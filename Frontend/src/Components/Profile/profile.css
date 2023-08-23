@@ -1,0 +1,104 @@
+.profile{
+    width: 327px;
+    height: 303px;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 8%;
+    background-color: white;
+    text-align: center;
+}
+.profile h3{
+    margin-top: 35px;
+}
+.profile > img{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: -60px;
+    left:50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+.profile-buttons {
+    display: block;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-buttons button{
+    width: 86px;
+    height: 77px;
+    background-repeat: no-repeat;
+    border: 1px solid #708F85;
+    border-radius: 8%;
+    color: #708F85;
+    background-position: center;
+    background-position-y: 20px;
+    background-size: auto;
+    background-color: white;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 10px;
+    max-width: 150px;
+}
+
+.profile-setting{
+    background-image:url('../../Images/settings-icon.svg') ;
+}
+
+.profile-history{
+    background-image:url('../../Images/history.svg') ;
+}
+
+.profile-dashboard{
+    background-image:url('../../Images/dashboard.png') ;
+}
+
+.profile-buttons button span{
+    display: block;
+    line-height: 8.5;
+}
+
+.profile-points{
+    border: 1px solid #189A46;
+    background-color: #189A46;
+    color: white;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+
+.points-icon{
+    transform: translateY(10%);
+
+}
+
+@media (max-width: 350px) {
+    .profile {
+        width: 90vw;
+        height: 400px;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 1020px) {
+    .profile {
+        width: 550px;
+        height: 450px;
+      }
+      .profile-buttons button{
+        width: 150px;
+        height: 120px;
+      }
+  }
+  
