@@ -196,22 +196,22 @@ def bottle_recognition(screen, box_annotator):
             predicted = classes[int(detections.class_id)]
             if predicted == 'p':
                 logger.info('Detected plastic bottle')
-                setRotate(MAX_LEFT)  ## 4 max left
+                setRotate(MAX_LEFT)  ## 4th max left
                 bottlesImages['plastic'] = upload_to_s3('predicted.jpg', create_presigned_post('creditRecycle/plastic','predicted.jpg'))
             elif predicted == 'g':
                 logger.info('Detected glass bottle')
-                setRotate(CENTER_CELL)  ## 3 center
+                setRotate(CENTER_CELL)  ## 3rd ccell
                 bottlesImages['glass'] = upload_to_s3('predicted.jpg', create_presigned_post('creditRecycle/plastic','predicted.jpg'))
             elif predicted == 'c':
                 logger.info('Detected can')
-                setRotate(SEC_CELL)  ## 3 center
+                setRotate(SEC_CELL)  ## 2nd cell
                 bottlesImages['can'] = upload_to_s3('predicted.jpg', create_presigned_post('creditRecycle/plastic','predicted.jpg'))
             else:
                 logger.info('Detected other item')
-                setRotate(MAX_RIGHT)  ## 1 max right
+                setRotate(MAX_RIGHT)  ## 1st max right
         else:
             logger.info('No detection made, uploading as other')
-            setRotate(MAX_RIGHT)  ## 1 max right
+            setRotate(MAX_RIGHT)  ## 1st max right
             upload_to_s3('predicted.jpg', create_presigned_post('creditRecycle/other', 'predicted.jpg'))
 
         if predicted != 'o':
